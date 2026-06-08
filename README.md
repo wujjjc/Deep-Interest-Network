@@ -63,6 +63,13 @@ python main.py
 | `max_category_len` | 1 | Max categories per item |
 | `weight_decay` | 1e-4 | L2 regularization |
 
+### Results
+
+| Metric | Score |
+|--------|-------|
+| **AUC** | 0.8797 |
+| **GAUC** | 0.8774 |
+
 ### Evaluation Metrics
 
 - **AUC**: Global ranking accuracy across all test samples
@@ -128,6 +135,13 @@ python main.py
 | `embedding_dim` | 64 | Embedding 维度 |
 | `max_category_len` | 1 | 每个物品最大类别数 |
 | `weight_decay` | 1e-4 | L2 正则化系数 |
+
+### 实验结果
+
+| 指标 | 分数 |
+|------|------|
+| **AUC** | 0.8797 |
+| **GAUC** | 0.8774 |
 
 ### 评估指标
 
